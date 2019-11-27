@@ -1,0 +1,32 @@
+.alert-title,p,span,h2{
+  text-align: center;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.card-group {
+
+  &__image {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto auto;
+  }
+
+  &__item {
+
+    transition: all .5s ease-in-out;
+    &:hover {
+      transform: scale(1.05);
+      z-index: 1;
+    }
+  }
+  &__button {
+    cursor: pointer;
+    border-radius: 0;
+  }
+  &__title {
+    text-align: center;
+  }
+
+}

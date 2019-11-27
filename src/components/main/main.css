@@ -1,0 +1,30 @@
+.alert-title, p, span, h2 {
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.card-group__image {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto auto;
+}
+.card-group__item {
+  transition: all 0.5s ease-in-out;
+}
+.card-group__item:hover {
+  transform: scale(1.05);
+  z-index: 1;
+}
+.card-group__button {
+  cursor: pointer;
+  border-radius: 0;
+}
+.card-group__title {
+  text-align: center;
+}
+
+/*# sourceMappingURL=main.css.map */
