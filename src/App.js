@@ -3,20 +3,29 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.scss';
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
-import {Route, Switch, withRouter} from "react-router-dom";
-import Registration from "./components/registration/Registration";
-import Clients from "./components/clients/Clients";
+import {Route, Switch} from "react-router-dom";
+import {createStore,applyMiddleware} from "redux";
+import thunk from 'redux-thunk';
+import rootReducer from './store/combineReducer';
+import { Provider } from 'react-redux';
+import { composeWithDevTools } from 'redux-devtools-extension';
+import ContainerRegistration from "./components/registration/ContainerRegistration";
+import ContainerClients from "./components/clients/ContainerClients";
 
-function App(props) {
+const store = createStore(rootReducer,composeWithDevTools(applyMiddleware(thunk)));
+
+function App() {
   return (
-    <div className="App">
-         <Header />
-            <Switch>
-                <Route path='/registration' component={Registration}/>
-                <Route path='/clients' component={Clients}/>
-                <Route exact path='/' component={Main}/>
-            </Switch>
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <Header/>
+        <Switch>
+          <Route path='/registration' component={ContainerRegistration}/>
+          <Route path='/clients' component={ContainerClients}/>
+          <Route exact path='/' component={Main}/>
+        </Switch>
+      </div>
+    </Provider>
   );
 }
 
