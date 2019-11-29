@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0e67bc09b45281af5382e82b77404d97",
+    "revision": "608284b984eb442e7d016d6478a2406a",
     "url": "/headworks/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headworks/static/css/2.833dd627.chunk.css"
   },
   {
-    "revision": "3c3e6b84485f061e9f11",
+    "revision": "98e722a9703dece3781e",
     "url": "/headworks/static/css/main.48dea849.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headworks/static/js/2.f1dabe95.chunk.js"
   },
   {
-    "revision": "3c3e6b84485f061e9f11",
-    "url": "/headworks/static/js/main.85deae7b.chunk.js"
+    "revision": "98e722a9703dece3781e",
+    "url": "/headworks/static/js/main.0c74487c.chunk.js"
   },
   {
     "revision": "222feceaa4e9af8de64a",
