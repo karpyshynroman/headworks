@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2ed3b39-a6e0-4d27-8d2a-080415974807" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/registration/ContainerRegistration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/ContainerRegistration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/registration/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registration/Registration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/registration/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/registration/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/registration/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/registration/reducers.js" afterDir="false" />
-    </list>
+    <list default="true" id="b2ed3b39-a6e0-4d27-8d2a-080415974807" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +10,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/registration/Registration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="323">
               <caret line="174" column="72" selection-start-line="174" selection-start-column="72" selection-end-line="174" selection-end-column="72" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
@@ -29,11 +22,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/registration/ContainerRegistration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="375">
+              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -143,8 +136,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-18" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="823" />
@@ -164,16 +157,6 @@
             <path>
               <item name="headworks" type="b2602c69:ProjectViewProjectNode" />
               <item name="headworks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="headworks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headworks" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="headworks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="headworks" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,6 +181,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/assets/components/header" />
     </key>
@@ -231,21 +215,22 @@
       <workItem from="1574685723648" duration="32146000" />
       <workItem from="1574924475825" duration="2036000" />
       <workItem from="1574926784913" duration="40404000" />
-      <workItem from="1575010621325" duration="5701000" />
+      <workItem from="1575010621325" duration="6528000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80287000" />
+    <option name="totallyTimeSpent" value="81114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="121" y="336" width="1440" height="823" extended-state="0" />
+    <frame x="-5" y="23" width="1440" height="823" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info id="npm" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32968536" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32968536" />
       <window_info anchor="bottom" id="Database Changes" order="1" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" />
@@ -350,9 +335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/clients/ContainerClients.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -424,29 +406,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/registration/Registration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="174" column="72" selection-start-line="174" selection-start-column="72" selection-end-line="174" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/registration/actions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/registration/reducers.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -455,12 +423,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/registration/ContainerRegistration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="375">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/registration/Registration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="174" column="72" selection-start-line="174" selection-start-column="72" selection-end-line="174" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>

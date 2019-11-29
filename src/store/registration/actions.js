@@ -1,6 +1,6 @@
 import {getFact} from "../../utils";
 export const REGISTRATION_ADD = 'REGISTRATION_ADD ';
-export const IMAGE_GET = 'IMAGE_GET';
+export const FACT_GET = 'FACT_GET';
 
 export  const register = (data) => ({
   type: REGISTRATION_ADD,
@@ -11,7 +11,7 @@ export const getMeowFact = () => {
   return async dispatch => {
     try {
       const fact = await getFact();
-      dispatch({ type: IMAGE_GET, payload: fact.data[0]});
+      dispatch({ type: FACT_GET, payload: fact.data[0]});
     }catch (e) {
       console.log(e)
     }
