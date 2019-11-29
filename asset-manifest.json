@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/headworks/static/css/main.48dea849.chunk.css",
-    "main.js": "/headworks/static/js/main.1381a7c9.chunk.js",
-    "main.js.map": "/headworks/static/js/main.1381a7c9.chunk.js.map",
+    "main.js": "/headworks/static/js/main.85deae7b.chunk.js",
+    "main.js.map": "/headworks/static/js/main.85deae7b.chunk.js.map",
     "runtime-main.js": "/headworks/static/js/runtime-main.a21cd548.js",
     "runtime-main.js.map": "/headworks/static/js/runtime-main.a21cd548.js.map",
     "static/css/2.833dd627.chunk.css": "/headworks/static/css/2.833dd627.chunk.css",
-    "static/js/2.e07e5c13.chunk.js": "/headworks/static/js/2.e07e5c13.chunk.js",
-    "static/js/2.e07e5c13.chunk.js.map": "/headworks/static/js/2.e07e5c13.chunk.js.map",
+    "static/js/2.f1dabe95.chunk.js": "/headworks/static/js/2.f1dabe95.chunk.js",
+    "static/js/2.f1dabe95.chunk.js.map": "/headworks/static/js/2.f1dabe95.chunk.js.map",
     "index.html": "/headworks/index.html",
-    "precache-manifest.2beda31d774a97466187d4e0a4be7974.js": "/headworks/precache-manifest.2beda31d774a97466187d4e0a4be7974.js",
+    "precache-manifest.169fe59d715becb58e2f01464bd85050.js": "/headworks/precache-manifest.169fe59d715becb58e2f01464bd85050.js",
     "service-worker.js": "/headworks/service-worker.js",
     "static/css/2.833dd627.chunk.css.map": "/headworks/static/css/2.833dd627.chunk.css.map",
     "static/css/main.48dea849.chunk.css.map": "/headworks/static/css/main.48dea849.chunk.css.map",
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.a21cd548.js",
     "static/css/2.833dd627.chunk.css",
-    "static/js/2.e07e5c13.chunk.js",
+    "static/js/2.f1dabe95.chunk.js",
     "static/css/main.48dea849.chunk.css",
-    "static/js/main.1381a7c9.chunk.js"
+    "static/js/main.85deae7b.chunk.js"
   ]
 }
