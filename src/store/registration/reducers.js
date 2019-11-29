@@ -1,9 +1,11 @@
 import {
-  REGISTRATION_ADD
+  REGISTRATION_ADD,
+  IMAGE_GET
 } from "./actions";
 
 const defaultState = {
-  data: []
+  data: [],
+  fact:''
 };
 
 export const registrationReducer = (state = defaultState, action) => {
@@ -12,6 +14,11 @@ export const registrationReducer = (state = defaultState, action) => {
       return {
         ...state,
         data: [...state.data, action.payload]
+      };
+    case IMAGE_GET:
+      return {
+        ...state,
+        fact: action.payload
       };
   }
   return state;

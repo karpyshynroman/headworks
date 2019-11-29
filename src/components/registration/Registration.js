@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Alert, Button, Col, Jumbotron} from "react-bootstrap";
+import {Alert, Button, Col, Jumbotron, Card} from "react-bootstrap";
 import './registration.scss';
 class Registration extends Component {
 
@@ -16,6 +16,10 @@ class Registration extends Component {
       .replace('T',' ')
   };
 
+  componentDidMount() {
+    const { getFact} = this.props;
+    getFact();
+  }
 
   submitHandler = event => {
     const { register } = this.props;
@@ -53,8 +57,13 @@ class Registration extends Component {
       gender,
       loyalty,
       creditCard,
-      approved
+      approved,
     } = this.state;
+
+    const {
+      getFact,
+      fact,
+    } = this.props;
 
     return (
       <div>
@@ -157,6 +166,15 @@ class Registration extends Component {
             </Col>
           </form>
         </Jumbotron>
+        <Card className="text-center">
+          <Card.Header>MEOW FACTS</Card.Header>
+          <Card.Body>
+            <Card.Text>
+              {fact}
+            </Card.Text>
+            <Button variant="primary" onClick={() => getFact()}>One More</Button>
+          </Card.Body>
+        </Card>
       </div>
     );
   }
